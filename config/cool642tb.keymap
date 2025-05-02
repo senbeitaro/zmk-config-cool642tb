@@ -65,6 +65,27 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        dclick: dclick {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mkp LCLK &mkp LCLK>;
+            label = "DCLICK";
+        };
+
+        curve_macro: curve_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_5 &kp LS(N8) &kp LS(N9) &kp LEFT_ARROW>;
+            label = "CURVE_MACRO";
+        };
+
+        keybracket_macro: keybracket_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp INTERNATIONAL_4 &kp RIGHT_BRACKET &kp BACKSLASH &kp ENTER &kp LEFT_ARROW>;
+            label = "KEYBRACKET_MACRO";
+        };
     };
 
     behaviors {
