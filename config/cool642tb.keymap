@@ -56,6 +56,26 @@
             bindings = <&kp LS(N9)>;
             key-positions = <5 17>;
         };
+
+        dclick1 {
+            bindings = <&dclick>;
+            key-positions = <18 19 20>;
+        };
+
+        dclick2 {
+            bindings = <&dclick>;
+            key-positions = <6 18>;
+        };
+
+        back {
+            bindings = <&mkp MB4>;
+            key-positions = <17 18>;
+        };
+
+        forward {
+            bindings = <&mkp MB5>;
+            key-positions = <5 6>;
+        };
     };
 
     macros {
