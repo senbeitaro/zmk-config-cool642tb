@@ -144,19 +144,19 @@
 
         NUM_ARROW {
             bindings = <
-&kp N1                &kp N2           &kp N3                  &kp N4  &kp N5                          &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END    &kp LEFT_BRACKET
-&kp N6                &kp N7           &kp N8                  &kp N9  &kp N0  &none       &none       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp LS(INTERNATIONAL_1)
-&mt LEFT_SHIFT MINUS  &mt LCTRL EQUAL  &mt LEFT_ALT LS(EQUAL)  &none   &none   &kp LS(N8)  &kp LS(N9)  &none          &none           &kp SEMICOLON   &kp SQT    &kp INTERNATIONAL_1
-&trans                &trans           &trans                  &trans  &trans  &trans      &trans      &trans                                                    &kp LS(INTERNATIONAL_3)
+&kp N1                &kp N2           &kp N3                  &kp N4  &kp N5                            &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END    &kp LEFT_BRACKET
+&kp N6                &kp N7           &kp N8                  &kp N9  &kp N0  &none       &curve_macro  &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp LS(INTERNATIONAL_1)
+&mt LEFT_SHIFT MINUS  &mt LCTRL EQUAL  &mt LEFT_ALT LS(EQUAL)  &none   &none   &kp LS(N8)  &kp LS(N9)    &none          &none           &kp SEMICOLON   &kp SQT    &kp INTERNATIONAL_1
+&trans                &trans           &trans                  &trans  &trans  &trans      &trans        &trans                                                    &kp LS(INTERNATIONAL_3)
             >;
         };
 
         FUNC_NUM {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                               &kp LS(MINUS)  &kp N7  &kp N8  &kp N9  &kp LS(SEMI)
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none         &none         &kp TAB        &kp N4  &kp N5  &kp N6  &kp MINUS
-&kp F11  &kp F12  &none   &none   &none    &kp LS(RBKT)  &kp LS(BSLH)  &kp N0         &kp N1  &kp N2  &kp N3  &kp LS(APOS)
-&trans   &trans   &trans  &trans  &trans   &trans        &trans        &trans                                 &kp FSLH
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                                    &kp LS(MINUS)  &kp N7  &kp N8  &kp N9  &kp LS(SEMI)
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none         &keybracket_macro  &kp TAB        &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp F11  &kp F12  &none   &none   &none    &kp LS(RBKT)  &kp LS(BSLH)       &kp N0         &kp N1  &kp N2  &kp N3  &kp LS(APOS)
+&trans   &trans   &trans  &trans  &trans   &trans        &trans             &trans                                 &kp FSLH
             >;
         };
 
