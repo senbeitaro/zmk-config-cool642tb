@@ -70,9 +70,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W               &kp E           &kp R                           &kp T                                                &kp Y        &kp U  &kp I                &kp O             &kp P
-&kp A             &kp S               &kp D           &kp F                           &kp G        &to 1                  &mo 6            &kp H        &kp J  &kp K                &kp L             &kp MINUS
+&kp A             &kp S               &kp D           &kp F                           &kp G        &to 1                  &mo 7            &kp H        &kp J  &lt 6 K              &kp L             &kp MINUS
 &mt Z LEFT_SHIFT  &mt X LEFT_CONTROL  &mt C LEFT_ALT  &kp V                           &kp B        &lt 1 RIGHT_BRACKET    &lt 1 BACKSLASH  &kp N        &kp M  &mt COMMA RIGHT_ALT  &mt PERIOD RCTRL  &mt SLASH RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp LEFT_WIN        &kp LEFT_ALT    &mt LEFT_SHIFT INTERNATIONAL_5  &lt 2 SPACE  &lt 3 INTERNATIONAL_4  &kp BACKSPACE    &lt 2 ENTER                                                &kp DELETE
+&kp LEFT_CONTROL  &kp LEFT_WIN        &kp LEFT_ALT    &mt LEFT_SHIFT INTERNATIONAL_5  &lt 2 SPACE  &lt 4 INTERNATIONAL_4  &kp BACKSPACE    &lt 2 ENTER                                                &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -93,6 +93,15 @@
 &kp N6                &kp N7           &kp N8                  &kp N9  &kp N0  &none       &none       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp LS(INTERNATIONAL_1)
 &mt LEFT_SHIFT MINUS  &mt LCTRL EQUAL  &mt LEFT_ALT LS(EQUAL)  &none   &none   &kp LS(N8)  &kp LS(N9)  &none          &none           &kp SEMICOLON   &kp SQT    &kp INTERNATIONAL_1
 &trans                &trans           &trans                  &trans  &trans  &trans      &trans      &trans                                                    &kp LS(INTERNATIONAL_3)
+            >;
+        };
+
+        FUNC_NUM {
+            bindings = <
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5                               &kp LS(MINUS)  &kp N7  &kp N8  &kp N9  &kp LS(SEMI)
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans        &none         &kp TAB        &kp N4  &kp N5  &kp N6  &kp MINUS
+&kp F11  &kp F12  &trans  &trans  &trans   &kp LS(RBKT)  &kp LS(BSLH)  &kp N0         &kp N1  &kp N2  &kp N3  &kp LS(APOS)
+&trans   &trans   &trans  &trans  &trans   &trans        &trans        &trans                                 &kp FSLH
             >;
         };
 
@@ -123,8 +132,6 @@
 &kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         layer_6 {
